@@ -1,0 +1,94 @@
+[
+  {
+    "number": "01",
+    "imageLabel": "AI TODO",
+    "imageClass": "",
+    "featured": true,
+    "type": "PERSONAL PROJECT",
+    "title": "AI Todo Scheduler",
+    "overview": [
+      {
+        "label": "WHO",
+        "heading": "誰のため？",
+        "description": "大学生など、予定を立てるのが面倒だと感じる人"
+      },
+      {
+        "label": "PROBLEM",
+        "heading": "どんな問題？",
+        "description": "Todoを登録しても、1日の予定を組むのが面倒"
+      },
+      {
+        "label": "SOLUTION",
+        "heading": "解決方法",
+        "description": "AIが登録されたTodoを分析し、1日のスケジュールを自動生成"
+      }
+    ],
+    "features": ["Todo登録", "AI分析", "スケジュール生成", "予定修正"],
+    "highlight": {
+      "label": "STRENGTH",
+      "title": "AIによる自動スケジューリング",
+      "description": "Todoを登録するだけで、AIが内容を分析し、1日の予定を自動で組み立てます。"
+    },
+    "competitors": ["Todoist", "Notion"],
+    "development": "Todo登録とAIによるスケジュール生成を中心に、実際に使いやすいTodo管理アプリを目指して制作しました。",
+    "technologies": ["Python", "Flask", "SQLite", "OpenAI API"],
+    "links": [
+      {
+        "label": "Live Demo →",
+        "url": "https://todo-app-zpgs.onrender.com/hello",
+        "variant": "primary"
+      },
+      {
+        "label": "GitHub ↗",
+        "url": "https://github.com/RyukiTakino/todo-app.git",
+        "variant": "secondary"
+      }
+    ]
+  },
+  {
+    "number": "02",
+    "imageLabel": "BATH APP",
+    "imageClass": "project-image-second",
+    "featured": false,
+    "type": "HACKATHON / TEAM PROJECT",
+    "title": "風呂キャン撲滅アプリ",
+    "overview": [
+        {
+        "label": "WHO",
+        "heading": "誰のため？",
+        "description": "お風呂に入るのが面倒に感じる人"
+      },
+      {
+        "label": "PROBLEM",
+        "heading": "どんな問題？",
+        "description": "お風呂に入るのが面倒になり、入浴を後回しにしてしまう問題"
+      },
+      {
+        "label": "SOLUTION",
+        "heading": "解決方法",
+        "description": "キャラクターを育成するゲーム性を取り入れ、楽しみながら入浴を習慣化する"
+      }
+    ],
+    "features": ["キャラクター育成", "アイテム", "恋愛要素", "ゲーム性を活用した入浴習慣化"],
+    "highlight": {
+      "label": "MY ROLE",
+      "title": "フロントエンドを担当",
+      "description": "2人チームで2日間のハッカソンに参加。主にフロントエンドの実装を担当しました。アイデア出しにも積極的に参加しました。"
+    },
+    "competitors": [],
+    "development": "「どうすればお風呂に入りたくなるか」をアイデア出しの段階から考え、キャラクター育成を軸にしたゲーム性のあるアプリとして制作しました。",
+    "technologies": ["TypeScript", "React", "Vite", "Gemini API"],
+    "links": [
+      {
+        "label": "View Project →",
+        "url": "#",
+        "variant": "primary"
+      },
+      {
+        "label": "GitHub ↗",
+        "url": "https://github.com/Yutaro-web/kaori-hackathon",
+        "variant": "secondary"
+      }
+    ]
+  }
+]
