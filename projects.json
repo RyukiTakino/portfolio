@@ -90,5 +90,66 @@
         "variant": "secondary"
       }
     ]
+  },
+  {
+    "number": "03",
+    "imageLabel": "ENGLISH JOURNEY",
+    "imageClass": "project-image-third",
+    "featured": false,
+    "type": "HACKATHON / TEAM PROJECT",
+    "title": "English Journey",
+    "overview": [
+    {
+    "label": "WHO",
+    "heading": "誰のため？",
+    "description": "英語力だけでなく、海外の文化や地域についても学びたい英語学習者"
+    },
+    {
+    "label": "PROBLEM",
+    "heading": "どんな問題？",
+    "description": "教科書中心の学習では、実際の英語コンテンツや現地の文化に触れる機会が限られる"
+    },
+    {
+    "label": "SOLUTION",
+    "heading": "解決方法",
+    "description": "Wikipediaの記事やYouTubeのニュース動画を活用し、AIによる要約や問題演習を通して実践的に英語を学ぶ"
+    }
+    ],
+    "features": [
+    "国・地域・カテゴリの選択",
+    "Wikipedia記事を活用したリーディング学習",
+    "YouTubeのニュース動画を活用した学習",
+    "AIによる記事内容の要約",
+    "AIによる理解度の採点",
+    "AIによる選択問題の生成",
+    "回答の正誤判定と答え合わせ"
+    ],
+    "highlight": {
+    "label": "MY ROLE",
+    "title": "バックエンド開発を担当",
+    "description": "Flaskを用いたAPI開発やデータベース設計、外部APIとの連携を担当。チームで協力しながら、記事の取得からAIを活用した学習機能までを実装しました。ハッカソンでは最優秀賞を獲得しました。"
+    },
+    "competitors": [],
+    "development": "英語の文章を読むだけでなく、実際のニュース動画や地域に関する記事を教材として活用し、AIによる要約・採点・問題演習を通して理解を深められる学習アプリを開発しました。開発ではGoogle Gemini APIの利用を検討しましたが、実装上の課題からOpenAI APIへ切り替え、AI機能の実装を進めました。",
+    "technologies": [
+    "Python",
+    "Flask",
+    "SQLite",
+    "Wikipedia API",
+    "YouTube API",
+    "OpenAI API"
+    ],
+    "links": [
+    {
+    "label": "View Project →",
+    "url": "#",
+    "variant": "primary"
+    },
+    {
+    "label": "GitHub ↗",
+    "url": "https://github.com/RyukiTakino/English_journey",
+    "variant": "secondary"
+    }
+   ]
   }
 ]
